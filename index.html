@@ -1,0 +1,97 @@
+<!Doctype html>
+<html lang="en" >
+  <head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    </head>
+    <body>
+      <h1 id="title" >Core Survey Form</h1>
+      <p id="description" >Thank you for your time, <br> please help us to serve you better</p>
+      <form action="" id="survey-form" >
+        <div class="form-div">
+<label id="name-label" >Name</label>
+<input type="text" id="name" name="name" placeholder="please enter your name" required></div>
+<div class="form-div">
+<label id="email-label" >Email</label>
+<input type="email" id="email" name="email" placeholder="Enter valid email address" required></div>
+<div class="form-div">
+<label id="number-label">Age (optional)</label> 
+  <input type="number" min="15" max="95" id="number" name="age" placeholder="Age"></div>
+     <div class="form-div">
+       <label id="dropdown-label">Which option best describes you</label>
+       <select id="dropdown" name="dropdown-role">
+         <option value="">Please Select your role</option>
+         <option value="">Student</option>
+         <option value="">Teacher</option>
+         <option value="">Surgeon</option>
+         <option value="">Nurse</option>
+         <option value="">Other</option>
+       </select>
+     </div>
+      <div class="form-div" > 
+       <label id="label-radio">Would you recommend Core Medics to a Friend? </label></div> 
+       <div> <label id="definitely"><input type="radio" value="definitely" name="recommend"> Definitely</label>
+       </div> 
+       <div> <label id="maybe"><input type="radio" value="maybe" name="recommend"> May be</label>
+       </div> 
+       <div> <label id="notsure"><input type="radio" value="notsure" name="recommend"> Not Sure</label>
+       </div> 
+       <div class="form-div">
+       <label id="dropdown-label">What is your favorite  of Core Medics?</label>
+       <select id="dropdown-label-feature" name="dropdown-feature">
+         <option value="">Please select an option</option>
+         <option value="">Care Giving</option>
+         <option value="">Projects</option>
+         <option value="">Surgical Service</option>
+         <option value="">Nursing Service</option>
+         <option value="">Open Source</option>
+       </select>
+     </div>
+
+     <div class="form-div">
+       <label id="checkbox">What would you like us to improve</label>
+ </div>
+ <div> <label id="frontend"><input type="checkbox" value="1" name="frontend"> Labs</label></div>
+<div><label id ="backend"><input type="checkbox" value="2" name = "backend">Nursing Services</label>
+ </div>
+  <div><label id="visual">
+   <input type="checkbox" value="3" name="visual"> Gynacology and Obstetrics</label>
+   </div>
+    <div><label id="task" >
+  <input type="checkbox" value="4" name="task" > Pharmacy Services</label>
+   </div>
+    <div><label id="study">
+   <input type="checkbox" name="study" value="5"> Study</label>
+   </div>
+    <div><label id="study1">
+   <input type="checkbox" name="study1" value="6">Research Works</label>
+   </div>
+     <div><label id="study3">
+   <input type="checkbox" name="study3" value="7"> Libary</label>
+   </div>
+     <div><label id="study4">
+   <input type="checkbox" name="study4" value="8"> Radiological services</label>
+   </div>
+   <div><label id="study5">
+   <input type="checkbox" name="study5" value="9"> Reception</label>
+   </div>
+   <div><label id="study6">
+   <input type="checkbox" name="study6" value="10">Sercurity Services</label>
+   </div>
+   <div><label id="study7">
+   <input type="checkbox" name="study7" value="11">Ambulance Services</label>
+   </div>
+   <br/>
+     <div class="form-div">
+           <label id="label-textarea">Do you have any Comments or Suggestions? 
+ </label>
+       <textarea name="suggestion" placeholder="Enter Comment here" ></textarea>
+   </div>
+   <div class="form-div">
+     <input id="submit" type="submit" value="Submit">
+   </div>
+      </form>
+    </body>
+</html>
